@@ -11,7 +11,7 @@ import {
   useDisclosure,
   useTheme,
 } from "@chakra-ui/core";
-import { ItemOrderList } from "./placeholder-layer/PlaceholderOrderList";
+import { ItemOrderList } from "./dnd/ItemOrderList";
 
 const defaultItems = [{ id: "aaa" }, { id: "bc" }, { id: "d-888" }];
 export const BasicModal = () => {
